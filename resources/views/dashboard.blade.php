@@ -23,7 +23,6 @@
         <header class="bg-warning p-3">
             <div class="container mt-5">
                 <div class="d-flex justify-content-center align-items-center h-200">
-                    {{-- <div class="col d-flex justify-content-center">  --}}
                     <div class="card w-50" style="width: 18rem">
                         <div class="card-body">
                             <h5 class="card-title">Bergabung dengan GAS</h5>
