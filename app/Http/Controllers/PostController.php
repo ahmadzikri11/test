@@ -9,11 +9,17 @@ use Illuminate\Http\Request;
 class PostController extends Controller
 {
     //view data
+    
     public function index()
     {
         $posts = Post::latest()->get();
         return view('posts.index', compact('posts'));
     }
+    // public function index2()
+    // {
+    //     $posts = Post::latest()->get();
+    //     return view('posts.index', compact('posts'));
+    // }
 
     //view create data
     public function create()

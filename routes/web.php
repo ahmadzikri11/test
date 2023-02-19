@@ -28,3 +28,4 @@ Route::middleware([
 });
 
 Route::resource('post', PostController::class);
+// Route::get('/welcome/post', [PostController::class, 'index2']);
